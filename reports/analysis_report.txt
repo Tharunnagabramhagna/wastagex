@@ -1,0 +1,84 @@
+
+Loading cleaned dataset for analysis...
+
+############################################################
+              WASTAGEX ANALYSIS REPORT
+############################################################
+
+1. GENERAL SUMMARY
+------------------------------------------------------------
+Cleaned records read: 130,551
+Valid observations analyzed: 130,551
+Negative observations excluded: 0
+Invalid observations excluded: 0
+
+2. SOURCE FLAG DISTRIBUTION
+------------------------------------------------------------
+I: 71,563
+E: 58,988
+
+============================================================
+NUMPY STATISTICAL ANALYSIS
+============================================================
+
+Measurement unit: 1000 t
+Valid observations: 130,551
+Mean: 494.381
+Median: 5.000
+Standard deviation: 4145.418
+Maximum: 141748.000
+Minimum: 0.000
+25th percentile: 0.000
+75th percentile: 57.000
+
+============================================================
+COUNTRY-WISE AVERAGE OBSERVATIONS (1000 t)
+============================================================
+1. World | Average: 12031.277 1000 t | Observations: 1,169
+2. Asia | Average: 6263.409 1000 t | Observations: 1,116
+3. Americas | Average: 3906.774 1000 t | Observations: 1,028
+4. Brazil | Average: 3298.281 1000 t | Observations: 764
+5. China, mainland | Average: 3152.223 1000 t | Observations: 852
+6. South America | Average: 3067.909 1000 t | Observations: 963
+7. China | Average: 2982.711 1000 t | Observations: 907
+8. Eastern Asia | Average: 2695.607 1000 t | Observations: 1,060
+9. Southern Asia | Average: 2601.289 1000 t | Observations: 848
+10. Net Food Importing Developing Countries | Average: 2082.770 1000 t | Observations: 1,005
+
+============================================================
+COMMODITY-WISE AVERAGE OBSERVATIONS (1000 t)
+============================================================
+1. Sugar cane | Average: 3985.032 1000 t | Observations: 1,542
+2. Sugar Crops | Average: 3250.558 1000 t | Observations: 2,021
+3. Cereals - Excluding Beer | Average: 2756.011 1000 t | Observations: 2,525
+4. Vegetables | Average: 2281.221 1000 t | Observations: 2,584
+5. Vegetables, other | Average: 1748.424 1000 t | Observations: 2,584
+6. Starchy Roots | Average: 1694.247 1000 t | Observations: 2,566
+7. Palm kernels | Average: 1604.503 1000 t | Observations: 728
+8. Fruits - Excluding Wine | Average: 1470.269 1000 t | Observations: 2,568
+9. Cassava and products | Average: 1207.409 1000 t | Observations: 1,302
+10. Maize and products | Average: 1202.520 1000 t | Observations: 2,359
+
+============================================================
+YEAR-WISE FOOD-LOSS OBSERVATION ANALYSIS
+============================================================
+2010 | Average: 440.156 1000 t | Observations: 10,316
+2011 | Average: 455.775 1000 t | Observations: 10,326
+2012 | Average: 468.006 1000 t | Observations: 10,384
+2013 | Average: 487.890 1000 t | Observations: 10,377
+2014 | Average: 486.008 1000 t | Observations: 10,934
+2015 | Average: 492.991 1000 t | Observations: 10,926
+2016 | Average: 497.645 1000 t | Observations: 10,930
+2017 | Average: 516.629 1000 t | Observations: 10,927
+2018 | Average: 489.082 1000 t | Observations: 11,399
+2019 | Average: 509.062 1000 t | Observations: 11,966
+2020 | Average: 543.224 1000 t | Observations: 11,047
+2021 | Average: 537.251 1000 t | Observations: 11,019
+
+============================================================
+IMPORTANT INTERPRETATION NOTE
+============================================================
+Grouped averages represent mean reported observations, not country-wide or global total food losses.
+Different countries may contain different commodity mixes and overlapping aggregate categories.
+Source flags have been retained for traceability. They should be interpreted using the dataset codebook.
+Negative values were excluded from statistics but retained in the cleaned dataset for review.
